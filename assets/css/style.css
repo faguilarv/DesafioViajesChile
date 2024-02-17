@@ -1,0 +1,25 @@
+ /* Hero Section */
+
+ #Hero-Section {
+     background-image: url("../img/salto-huilo-huilo.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: left;
+     background-attachment: fixed;
+ }
+
+ .subtitulo {
+     list-style-type: none;
+ }
+
+ #destacados .image-top {
+     height: 250px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .card:hover {
+     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+     transform: translateY(-3%);
+ }
