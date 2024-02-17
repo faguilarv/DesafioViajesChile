@@ -77,182 +77,214 @@
                 <div class="mb-5 pb-5">
                     <button id="reservar" type="button" class="btn btn-lg btn-outline-success text-light me-4"
                         data-bs-toggle="tooltip" data-bs-placement="bottom"
-                        data-bs-title="Presiona para realizar  tu reserva"">
+                        data-bs-title="Presiona para realizar  tu reserva">
                         Reservar</button>
 
-                        <button id=" registro" type="button" class="btn btn-lg btn-success text-light me-4"
+                    <button id="registro" type="button" class="btn btn-lg btn-success text-light me-4"
                         data-bs-toggle="tooltip" data-bs-placement="bottom"
-                        data-bs-title="Presiona para realizar el check-in del viaje"">
+                        data-bs-title="Presiona para realizar el check-in del viaje">
                         check-in</button>
                 </div>
             </div>
         </div>
     </header>
-    <section id=" quienesomos" class="container text-center my-5">
+    <!--Carousel-->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="Huanacos y Llamas en el norte">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-                        <h3 class="display-4  my-4">Quienes Somos</h3>
 
-                        <div class="row">
-                            <div class="col-12 col-md-4">
-                                <i class="fa-regular fa-paper-plane fa-3x my-3"></i>
-                                <h3 class="my-3 fw-bold">Travel</h3>
-                                <p class="my-3">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <i class="fa-solid fa-person-hiking fa-3x my-3"></i>
+    <!--Quienes Somos-->
+    <section id="quienesomos" class="container text-center my-5">
 
-                                <h3 class="my-3 fw-bold">Trekking</h3>
-                                <p class="my-3">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
-                            <div class="col-12 col-md-4">
-                                <i class="fa-solid fa-route fa-3x my-3"></i>
-                                <h3 class="my-3 fw-bold">Route</h3>
-                                <p class="my-3">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                                    aliquip ex ea commodo consequat.
-                                </p>
-                            </div>
+        <h3 class="display-4  my-4">Quienes Somos</h3>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fa-regular fa-paper-plane fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Travel</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-person-hiking fa-3x my-3"></i>
+
+                <h3 class="my-3 fw-bold">Trekking</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-route fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Route</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--Seccion destacados-->
+    <section class="bg-secondary py-5">
+        <div id="destacados" class="container my-5">
+
+            <h2 class="display-4 text-center text-light mb-3">Destacados</h2>
+
+            <div class="row">
+                <div class="col-12 col-sm-3 py-2">
+                    <div class="card h-100">
+
+                        <img src="assets/img/card1.jpg" class="card-img-top" alt="Torres del Paine">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Patagonia por USD 1500</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
+                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
+                                iure veniam nostrum maiores.
+                            </p>
+
+                            <a href="#" class="btn btn-outline-info">Ver más</a>
                         </div>
-                        </section>
-                        <!--Seccion destacados-->
-                        <section id="destacados" class="my-5 p-5 bg-secondary">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 py-2">
+                    <div class="card h-100">
+                        <img src="assets/img/card2.jpg" class="card-img-top" alt="Laguna Cejar">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Laguna Cejar USD 1500</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
+                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
+                                iure veniam nostrum maiores.
+                            </p>
 
-                            <h2 class="display-4 text-center text-light mb-3">Destacados</h2>
+                            <a href="#" class="btn btn-outline-info">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 py-2">
+                    <div class="card h-100">
+                        <img src="assets/img/card3.jpg" class="card-img-top" alt="San Pedro de Atacama">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">San Pedro de Atacama USD 1500</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
+                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
+                                iure veniam nostrum maiores.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3 py-2">
+                    <div class="card h-100">
+                        <img src="assets/img/card4.jpg" class="card-img-top" alt="Bosques Nativos">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Bosques Nativos USD 1500</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
+                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
+                                iure veniam nostrum maiores.
+                            </p>
+                            <a href="#" class="btn btn-outline-info">Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--formulario contacto-->
+    <section class="bg-secondary py-5">
+        <div id="Contacto" class=" container my-5">
+            <h2 class="display-4 text-center text-light my-4">Contácto</h2>
 
-                            <div class="row">
-                                <div class="col-12 col-sm-4 py-2">
-                                    <div class="card">
-                                        <div class="image-top" style="background-image: url(assets/img/card1.jpg)">
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title fw-bold">Patagonia por USD 1500</h5>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
-                                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
-                                                iure veniam nostrum maiores.
-                                            </p>
+            <p class="text-center text-light my-4 d-none d-md-block">Lorem ipsum dolor, sit amet
+                consectetur
+                adipisicing elit.
+                Doloribus
+                sapiente, autem delectus totam expedita
+                animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est
+                commodi.
+                Voluptate beatae
+                tempora quaerat?</p>
 
-                                            <a href="#" class="btn btn-outline-info">Ver más</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4 py-2">
-                                    <div class="card">
-                                        <div class="image-top" style="background-image: url(assets/img/card2.jpg)">
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title fw-bold">Laguna Cejar USD 1500</h5>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
-                                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
-                                                iure veniam nostrum maiores.
-                                            </p>
+            <form>
+                <div class="form-group mb-4">
+                    <label class="mb-2">Nombre</label>
+                    <input class="form-control" placeholder="Nombre">
+                </div>
 
-                                            <a href="#" class="btn btn-outline-info">Ver más</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4 py-2">
-                                    <div class="card">
-                                        <div class="image-top" style="background-image: url(assets/img/card3.jpg)">
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title fw-bold">San Pedro de Atacama USD 1500</h5>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
-                                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
-                                                iure veniam nostrum maiores.
-                                            </p>
-                                            <a href="#" class="btn btn-outline-info">Ver más</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-sm-4 py-2">
-                                    <div class="card">
-                                        <div class="image-top" style="background-image: url(assets/img/card4.jpg)">
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title fw-bold">Bosques Nativos USD 1500</h5>
-                                            <p class="card-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-                                                mollitia sapiente ea porro corrupti asperiores deleniti velit tempora.
-                                                Voluptatum asperiores, officia voluptates quasi delectus excepturi cum
-                                                iure veniam nostrum maiores.
-                                            </p>
-                                            <a href="#" class="btn btn-outline-info">Ver más</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <!--formulario contacto-->
-                                <section id="Contacto" class="container my-5">
-
-                                    <h2 class="display-4 text-center my-4">Contácto</h2>
-
-                                    <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet
-                                        consectetur
-                                        adipisicing elit.
-                                        Doloribus
-                                        sapiente, autem delectus totam expedita
-                                        animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est
-                                        commodi.
-                                        Voluptate beatae
-                                        tempora quaerat?</p>
-
-                                    <form>
-                                        <div class="form-group mb-4">
-                                            <label class="mb-2">Nombre</label>
-                                            <input class="form-control" placeholder="Nombre">
-                                        </div>
-
-                                        <div class="form-group mb-4">
-                                            <label class="mb-2">Asunto</label>
-                                            <input class="form-control" placeholder="Escribe el motivo" />
-                                        </div>
+                <div class="form-group mb-4">
+                    <label class="mb-2">Asunto</label>
+                    <input class="form-control" placeholder="Escribe el motivo" />
+                </div>
 
 
-                                        <div class="form-group">
-                                            <label class="mb-2">Mensaje</label>
-                                            <textarea class="form-control"
-                                                placeholder="Escribe aquí tu mensaje"></textarea>
-                                        </div>
+                <div class="form-group">
+                    <label class="mb-2">Mensaje</label>
+                    <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+                </div>
 
-                                        <div class="my-3 text-end">
-                                            <button class="btn btn-info text-light">Enviar</button>
-                                        </div>
-                                    </form>
+                <div class="my-3 text-start">
+                    <button id="send" type="button" class="btn btn-lg btn-success text-light me-4"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom"
+                        data-bs-title="Presiona para  enviar tú mensaje">
+                        Enviar</button>
+                    <!--<button class="btn btn-info text-light">Enviar</button>-->
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--footer-->
+    <footer class="contenedor bg-dark  text-light p-4">
+        <p class="mb-0">Faguilar 2024. Todos los derechos reservados.</p>
+        <a href="#"><i class="icon-white fa-brands fa-square-github"></i></a>
+        <a href="#"><i class="icon-white fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="icon-white fa-brands fa-square-x-twitter"></i></a>
+        <a href="#"><i class="icon-white fa-brands fa-facebook"></i></a>
 
-                                </section>
-                                <!--footer-->
-                                <footer class="bg-dark text-center text-light p-4">
-                                    <p class="mb-0">Faguilar 2024. Todos los derechos reservados.</p>
-                                </footer>
+
+    </footer>
 
 
-                                <!--JS CDN-->
-                                <script
-                                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-                                    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-                                    crossorigin="anonymous"></script>
-                                <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-                                    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-                                    crossorigin="anonymous"></script>
-                                <script src="assets/js/app.js"></script>
+    <!--JS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
 
 </body>
 
